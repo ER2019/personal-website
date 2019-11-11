@@ -1,0 +1,131 @@
+/***************************TAG SELECTORS*************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  color: #66BFBF
+}
+
+h2 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.5rem;
+  color: #66BFBF
+}
+
+h3 {
+  font-family: 'Josefin Slab', serif;
+  color: #11999E
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #CCCCCC 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/***************************CLASS SELECTORS*************************/
+.footer-link {
+  color: #11999E;
+  margin: 10px 20px 50px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #ea8861;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-container {
+  background-color: #ecf4f3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 65px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.hello-description {
+  margin: auto;
+  width: 30%;
+}
+
+.btn {
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(to bottom, #66BFBF 5%, #4b8e8d 100%);
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px auto 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+	background:linear-gradient(to bottom, #e25822 5%, #b22222 100%);
+}
+
+.laptop {
+  float: left;
+  margin-right: 30px;
+  width: 40%;
+}
+
+.desk {
+  float: right;
+  margin-left: 30px;
+  width: 40%
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
